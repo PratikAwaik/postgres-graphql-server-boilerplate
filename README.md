@@ -3,7 +3,7 @@
 Server side boilerplate for PostgreSQL and GraphQL with Sequelize, Apollo and Umzug (for migrations).
 
 ### Folder structure
-
+```
 |-- migrations
 |   `-- 2022_02_22_01_initialize_user.js
 |-- models
@@ -23,7 +23,7 @@ Server side boilerplate for PostgreSQL and GraphQL with Sequelize, Apollo and Um
     `-- rollback.js
 |-- context.js
 |-- index.js
-
+```
 ### Connect your database
 - Create a `.env` file in the root directory
 - Add `PROD_DATABASE_URL` for production and `DEV_DATABASE_URL` for development purposes.
